@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MADALING QUIZ LANG</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <h1>MADALI LANG TO BAKA MA ZERO KA PA, QUIT SCHOOL PAG NAKAKUHA KA BELOW 5, IF YOU GOT 5-10 THEN TRY BETTER NEXT TIME, KUNG 11-13 NAMAN NAKUHA MO THEN YOU CAN BE MY ONE OF MY INSPIRATION</h1>
+    </header>
+
+
+
+
+
+    <div id="quiz-container">
+        <div class="question" id="question1">
+            <p>Ano ang meta ngayong season (hindi sa ml)?</p>
+            <div class="answer-container">
+                <input type="text" id="answer1">
+                <span class="correct-answer" id="correctAnswer1">Billiard</span>
+                <span class="incorrect-icon" id="icon1"></span>
+                <span class="correct-icon" id="checkIcon1"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question2">
+            <p>Ano ang kahinaan ng lalake?</p>
+            <div class="answer-container">
+                <input type="text" id="answer2">
+                <span class="correct-answer" id="correctAnswer2">Selos</span>
+                <span class="incorrect-icon" id="icon2"></span>
+                <span class="correct-icon" id="checkIcon2"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question3">
+            <p>Tinitigan ko __________________ complete the following</p>
+            <div class="answer-container">
+                <input type="text" id="answer3">
+                <span class="correct-answer" id="correctAnswer3">Sinubo ko</span>
+                <span class="incorrect-icon" id="icon3"></span>
+                <span class="correct-icon" id="checkIcon3"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question4">
+            <p>Ano ang capital ng Mindanao?</p>
+            <div class="answer-container">
+                <input type="text" id="answer4">
+                <span class="correct-answer" id="correctAnswer4">Marawi</span>
+                <span class="incorrect-icon" id="icon4"></span>
+                <span class="correct-icon" id="checkIcon4"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question5">
+            <p>Mabisang pangontra sa selos?</p>
+            <div class="answer-container">
+                <input type="text" id="answer5">
+                <span class="correct-answer" id="correctAnswer5">Kiss</span>
+                <span class="incorrect-icon" id="icon5"></span>
+                <span class="correct-icon" id="checkIcon5"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question6">
+            <p>Ano ang kulay ng hood sa little red riding hood?</p>
+            <div class="answer-container">
+                <input type="text" id="answer6">
+                <span class="correct-answer" id="correctAnswer6">Red</span>
+                <span class="incorrect-icon" id="icon6"></span>
+                <span class="correct-icon" id="checkIcon6"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question7">
+            <p>Take a broke ____________ complete the following</p>
+            <div class="answer-container">
+                <input type="text" id="answer7">
+                <span class="correct-answer" id="correctAnswer7">Micah Mitch</span>
+                <span class="incorrect-icon" id="icon7"></span>
+                <span class="correct-icon" id="checkIcon7"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question8">
+            <p>Sa tingin mo tama lang ba ang pagsabi ng Nigga Word? Yes Or No</p>
+            <div class="answer-container">
+                <input type="text" id="answer8">
+                <span class="correct-answer" id="correctAnswer8">No</span>
+                <span class="incorrect-icon" id="icon8"></span>
+                <span class="correct-icon" id="checkIcon8"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question9">
+            <p>Ano ang posibleng mangyari kapag ikaw ay umiyak?</p>
+            <div class="answer-container">
+                <input type="text" id="answer9">
+                <span class="correct-answer" id="correctAnswer9">Comfort galing kay Earl Xavier Lysla (Add nyo yan pogi yan)</span>
+                <span class="incorrect-icon" id="icon9"></span>
+                <span class="correct-icon" id="checkIcon9"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question10">
+            <p>Who painted the Mona Lisa?</p>
+            <div class="answer-container">
+                <input type="text" id="answer10">
+                <span class="correct-answer" id="correctAnswer10">Leonardo da Vinci</span>
+                <span class="incorrect-icon" id="icon10"></span>
+                <span class="correct-icon" id="checkIcon10"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question11">
+            <p>What is the square root of 144?</p>
+            <div class="answer-container">
+                <input type="text" id="answer11">
+                <span class="correct-answer" id="correctAnswer11">12</span>
+                <span class="incorrect-icon" id="icon11"></span>
+                <span class="correct-icon" id="checkIcon11"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question12">
+            <p>Which element has the chemical symbol 'I'?</p>
+            <div class="answer-container">
+                <input type="text" id="answer12">
+                <span class="correct-answer" id="correctAnswer12">Imissyou</span>
+                <span class="incorrect-icon" id="icon12"></span>
+                <span class="correct-icon" id="checkIcon12"></span>
+            </div>
+        </div>
+
+        <div class="question" id="question13">
+            <p>Who is known as the 'Father of Computers'?</p>
+            <div class="answer-container">
+                <input type="text" id="answer13">
+                <span class="correct-answer" id="correctAnswer13">Charles Babbage</span>
+                <span class="incorrect-icon" id="icon13"></span>
+                <span class="correct-icon" id="checkIcon13"></span>
+            </div>
+        </div>
+
+        <button onclick="checkAnswers()">Submit Answers</button>
+
+        <div id="result"></div>
+
+        <!-- Modal for Result Image -->
+        <div id="modal">
+            <div id="modal-content">
+                <img src="" alt="Result Image" id="result-image">
+                <p id="score-text"></p>
+                <button id="cancel-button" onclick="closeModal()">Cancel</button>
+                <button id="retry-button" onclick="retryQuiz()">Retry</button>
+            </div>
+        </div>
+    </div>
+   
+
+    <script src="JavaScript.js"></script>
+
+
+    
+
+</body>
+</html>
